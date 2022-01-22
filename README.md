@@ -19,13 +19,15 @@ The dataset for this image classification model is a kaggle dataset maintained b
 Link to the dataset - https://www.kaggle.com/itsahmad/indoor-scenes-cvpr-2019
 
 Below is the image including the label as title (1 - Bedroom, 0- Living room)
-![image](https://user-images.githubusercontent.com/41964069/150638320-7a8b7cd8-1214-46e2-871f-615d22d10f0b.png)
+
+![image](https://user-images.githubusercontent.com/41964069/150639500-914ca33e-9a92-4908-822f-6b83a082d08b.png)
 
 ## Approach
 
 ## Preprocessing
 
-The preprocssing of the data includes billateral filteration. canny edge detection and dilusion of the image to get an edge based visualization of the images. As shown below the edges are also enough to identify if the location shown in the image is a bedroom or a living room
+The preprocssing of the data includes billateral filteration. canny edge detection and dilusion of the image to get an edge based visualization of the images. As shown below the edges are also enough to identify if the location shown in the image is a bedroom or a living room.
+
 ![image](https://user-images.githubusercontent.com/41964069/150639031-6f154e2e-41aa-4cc1-9a5b-95e6afb58088.png)
 
 ## Model
@@ -42,8 +44,15 @@ The testing was done on a totally different set of images from a hotel room that
 
 Preprocessed images -
 
-![image](https://user-images.githubusercontent.com/41964069/150639318-88227840-0ef8-485e-a3a5-60b2acc93fd0.png)
+![image](https://user-images.githubusercontent.com/41964069/150639486-7edce848-e8c0-44d8-94b3-47633c167019.png)
 
 Final Prediction - 
 
-![image](https://user-images.githubusercontent.com/41964069/150639342-d794e073-6223-4222-8f91-53d8cd76f507.png)
+![image](https://user-images.githubusercontent.com/41964069/150639471-2562a4a2-4da9-4929-8265-85387041e0ab.png)
+
+## Future Possible Approaches
+
+1. Using a better preprocessing with lower loss in data feature
+2. Increasing the CNN layers and trying different kernel sizes
+3. Using a new activation fuinction like the swish activation
+4. Increasing the test data for better and accurate test results
